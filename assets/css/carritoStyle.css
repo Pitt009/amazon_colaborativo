@@ -21,6 +21,9 @@ h4{
 .panelCompraTotal{
   padding: 0;
   margin: 0px;
+    position: relative;
+    left: 950px;
+    bottom: 290px;
 }
 .letraPanel{
   font-size: 12px;
@@ -61,4 +64,7 @@ h4{
 
 .descripcionProducto{
   font-size: 17px;
+}
+.margen{
+    margin: 0px;
 }
