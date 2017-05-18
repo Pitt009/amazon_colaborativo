@@ -22,4 +22,23 @@ nav{
 }
 #home{
 	margin-top: -24px;
+	width: 100%;
+	
+}
+.img-home{
+	width: 100%;
+}
+aside{
+	background-color:#f9f9f8;
+	margin-left: 6%;
+	margin-top: -2.5%;
+}
+figure{
+	margin-top: 2%;
+}
+figcaption{
+	margin-bottom: 25px; 
+}
+.bajar{
+	margin-top: 2%;
 }
