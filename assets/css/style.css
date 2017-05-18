@@ -15,6 +15,9 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
 /*lateral*/
 .lateral-arriba{
   border: 1px solid #eee;
@@ -22,7 +25,11 @@
   padding: 4%;
   margin-bottom: 10%;
   font-size: .75em;
+<<<<<<< HEAD
 =======
+=======
+  
+>>>>>>> upstream/master
 .subtitulo-producto {
   font-size: 16px;
   font-family: "Verdana";
@@ -39,5 +46,8 @@
 .informacion-producto {
   margin: 2%;
   font-size: 13px;
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
 >>>>>>> upstream/master
 }
