@@ -14,6 +14,14 @@
   margin-top: 2%;
 }
 
+/*lateral*/
+.lateral-arriba{
+  border: 1px solid #eee;
+  border-radius: 2%;
+  padding: 4%;
+  margin-bottom: 10%;
+  font-size: .75em;
+  
 .subtitulo-producto {
   font-size: 16px;
   font-family: "Verdana";
