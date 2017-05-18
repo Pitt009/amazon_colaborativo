@@ -21,4 +21,21 @@
   padding: 4%;
   margin-bottom: 10%;
   font-size: .75em;
+  
+.subtitulo-producto {
+  font-size: 16px;
+  font-family: "Verdana";
+  color: #CC6600;
+}
+
+.comentario-subtitulo {
+  padding: 0;
+  margin: 0;
+  color: #949494;
+  font-size: 13px;
+}
+
+.informacion-producto {
+  margin: 2%;
+  font-size: 13px;
 }

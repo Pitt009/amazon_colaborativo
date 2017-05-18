@@ -1,0 +1,45 @@
+.nav-busqueda {
+  width: 100%;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  background-color: #f7f7f7;
+  border-top: solid 1px #aaa;
+  border-bottom: solid 1px #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  color: black;
+  font-size: 11px;
+  padding: 0 4px 0 4px;
+}
+
+.nav-sub-bar {
+  border-top: solid 1px #aaa;
+  border-bottom: solid 1px #aaa;
+  padding: 5px 0 5px 15px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-left-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px 0 50px;
+}
+
+.red-type {
+  color: #dd1111;
+}
+
+.strong-type {
+  font-weight: 900;
+}
+
+.subnav-item {
+  padding: 0 4px 0 4px;
+}
