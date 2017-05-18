@@ -1,0 +1,25 @@
+.bg-color{
+	background-color: #24303f;
+}
+nav{
+	height: 100px;
+}
+.nav-logo{
+	top: -10px;
+}
+.letra-nav{
+   font-size: 5px;
+}
+.navbar-center{
+	width: 70%;
+	margin-top: 10px;
+}
+.fix{
+	height: 40px;
+}
+.bg-naranja{
+	background-color: #F3A847;
+}
+#home{
+	margin-top: -24px;
+}
