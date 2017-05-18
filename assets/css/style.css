@@ -1,3 +1,15 @@
 .imagen-producto{
   width: 100%
 }
+.pequeña-publicidad{
+  display: inline-flex;
+}
+.pequeña-publicidad img{
+  width: 10%;
+  height: 10%;
+  margin: 2%;
+}
+
+.publicidad-baja{
+  margin-top: 2%;
+}
