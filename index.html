@@ -2,76 +2,238 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title></title>
   </head>
   <body>
-   <header>
-   		<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+   <header class="bg-color">
+   		<nav class="navbar navbar bg-color">
+  			<div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="#"><img src="assets/images/home.jpg" id="nav-logo"></a>
+    			</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 col-lg-12">
+      				
+      	<form class="navbar-center ">
+         <div class="input-group input-group-md ">
+          				<span class="input-group-addon text-muted">Todos los departamentos<span class="caret"></span></span>
+ 					    <input type="text" class="form-control fix">
+  						<span class="input-group-addon bg-naranja "><i class="material-icons">&#xE8B6;</i></span>
+        			</div>	
+      			</form>
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#">Link</a></li>
+        			<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="#">Action</a></li>
+            				<li><a href="#">Another action</a></li>
+            				<li><a href="#">Something else here</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="#">Separated link</a></li>
+          				</ul>
+        			  </li>
+      			  </ul>
+    		</div><!-- /.navbar-collapse -->
+  		</section><!-- /.container-fluid -->
+	  </nav>
+    </header>
+    <section>
+    	<div id="home">
+    	 <img src="assets/images/amazon-dummy-carrusel-home.jpg" class="img-home">
+    	 <div class="row">
+    	   <div class="col-lg-8">
+    	  	 <h5><strong>Relacionado con productos que has visto </strong><small class="sub"><a href="">Ver más</a></small></h5>
+    	   </div>
+    	   <div class="row">
+    	   		<div class="col-lg-7">
+    	   	  		<img class ="col-md-4" src="assets/images/amazon-dummy-busqueda.jpg">
+    	   	  		<img class ="col-md-4" src="assets/images/amazon-dummy-busqueda.jpg">
+    	   	  		<img class ="col-md-4" src="assets/images/amazon-dummy-busqueda.jpg">
+    	   		</div>
+    	   		<aside class="col-lg-4">
+    	   			<div class="row">
+    	   		   		<figure>
+    	   		   		<img class="col-lg-3 col-md-offset-4"  src="assets/images/perfume.jpg">
+    	   		   		</figure>
+    	   		    </div>
+					<figcaption class="text-center" >
+    	   		   	<h5><strong>Día de las Madres<br>
+    	   		   	Ideas en regalos y ofertas.</strong></h5>
+    	   		   </figcaption>
+    	   		   <hr>
+    	   		   <div class="text-center row">
+    	   		   <h5><strong>Lo más vendido en televisores</strong></h5>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/amazon-dummy2.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/amazon-dummy2.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/amazon-dummy2.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/amazon-dummy2.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/amazon-dummy2.jpg">
+    	   		   </figure>
+    	   		   <small class="col-lg-4 col-lg-offset-4 bajar"><a href="">Ver mas</a></small>
+    	   		   </div>
+    	   		   <hr>
+    	   		   <div class="text-center row">
+    	   		   <h5><strong>Lo más vendido en Laptops</strong></h5>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/lap.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/lap.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/lap.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/lap.jpg">
+    	   		   </figure>
+    	   		   <figure class="col-lg-4 col-lg-offset-4">
+    	   		   	 <img src="assets/images/lap.jpg">
+    	   		   </figure>
+    	   		   <small class="col-lg-4 col-lg-offset-4 bajar"><a href="">Ver mas</a></small>
+    	   		   </div>
+    	   		   <hr>
+    	   		   <div class="row">
+    	   		   		<figure>
+    	   		   		<img class="col-lg-6 col-md-offset-3"  src="assets/images/tarjet.jpg">
+    	   		   		</figure>
+    	   		    </div>
+					<figcaption class="text-center" >
+    	   		   	<h4>Tarjetas de Regalo <br>
+    	   		   	de Amazon.com.mx
+    	   		   </h4>
+    	   		   </figcaption>
+    	   		   <hr>
+    	   		   <div class="row">
+    	   		   		<figure>
+    	   		   		<img class="col-lg-4 col-md-offset-4"  src="assets/images/meses.jpg">
+    	   		   		</figure>
+    	   		    </div>
+					<figcaption class="text-center" >
+    	   		   	<h4>En pedidos mayores a $2,500* </h4>
+    	   		   	<small>*Consulta terminos y condiciones</small>
+    	   		   </figcaption>
+    	   		   <hr>
+    	   		   <div class="row">
+    	   		   		<figure>
+    	   		   		<img class="col-lg-4 col-md-offset-4"  src="assets/images/pago.jpg">
+    	   		   		</figure>
+    	   		    </div>
+					<figcaption class="text-center" >
+    	   		   	<h4>Puedes pagar con tarjetas<br>de debito, crédito y prepago</h4>
+    	   		   </figcaption>
 
-   	
-   </header>
-    <section>
-    	
+    	   		</aside>
+    	   </div>
+    	 </div>
+
+    	</div>
     </section>
-    <section>
-    	
-    </section>
+    
     <footer>
-    	
-    </footer>
+      <!--Primera Barra -->
+      <div class="container">
+        <h3>Inicio de la página</h3>
+      </div>
 
+      <!-- Menú Vertical -->
+    	<div class="container">
+        <div class="row">
+
+          <div class="col-xs-2 col-md-3">
+            <p>Conócenos</p>
+            <ul class="list-inline">
+              <li><a href="#">Trabajar en Amazon</a></li>
+              <li><a href="#">Información corporativa</a></li>
+              <li><a href="#">Departamento de prensa</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-2">
+            <p>Gana dinero con nosotros</p>
+            <ul class="list-inline">
+              <li><a href="#">Invita y Gana $150</a></li>
+              <li><a href="#">Vender en Amazon</a></li>
+              <li><a href="#">Publica tu libro en Kindle</a></li>
+              <li><a href="#">Programa de afiliados</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-2">
+            <p>Podemos ayudarte</p>
+            <ul class="list-inline">
+              <li><a href="#">Developer o reemplazar productos</a></li>
+              <li><a href="#">Amazon Prime</a></li>
+              <li><a href="#">Gesionar contenido y dispositivos</a></li>
+              <li><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-2">
+            <p>Métodos de pago</p>
+            <ul class="list-inline">
+              <li><a href="#">Tarjetas de crédito y débito</a></li>
+              <li><a href="#">Tarjetas de regalo</a></li>
+              <li><a href="#">Meses sin interes</a></li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+
+      <div>
+        <hr>
+        <img src="assets/images/logoFooter.png" alt="">
+      </div>
+
+        <!-- Menú Horizontal -->
+        <div class="container">
+          <span>
+            <a href="#">Australia</a>
+            <a href="#">Alemania</a>
+            <a href="#">Brasil</a>
+            <a href="#">Canadá</a>
+            <a href="#">China</a>
+            <a href="#">España</a>
+            <a href="#">Estados Unidos</a>
+            <a href="#">Francia</a>
+            <a href="#">India</a>
+            <a href="#">Italia</a>
+            <a href="#">Japón</a>
+            <a href="#">Países Bajos</a>
+            <a href="#">Reino Unido</a>
+            <p class="grisFooter">Y también:</p>
+            <a href="#">Amazón Web Sevices</a>
+          </span>
+        </div>
+      
+    </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
