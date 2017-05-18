@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,28 +9,53 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/carritoStyle.css">
 
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="">
-      <div class="row contenedor">
-        <div class="col-md-10 detalleArticulos">
-          <h4 class="col-md-1 titulo">Carrito </h4>
-          <h4 class="col-md-1 col-md-offset-7 subtitulos">Precio</h4>
-          <h4 class="col-md-1 col-md-offset-2 subtitulos">Cant.</h4>
+        <div class="row contenedor">
+            <div class="col-md-9 detalleArticulos">
+                <h4 class="col-md-1 titulo">Carrito </h4>
+                <h4 class="col-md-1 col-md-offset-6 subtitulos">Precio</h4>
+                <h4 class="col-md-1 col-md-offset-3 subtitulos">Cant.</h4>
+            </div>
+            <div class="panel panel-default panelCompraTotal  col-md-3">
+                <div class="panel-body letraPanel">
+                    <span class="glyphicon glyphicon-ok textoVerde" aria-hidden="true">Tu pedido es elegible con envío GRATIS</span>
+                    <a class="puntero">Comprueba los productos incluidos en la oferta</a>
+                    <p class="text-muted">Selecciona esta opción al tramitar el pedido.</p>
+                </div>
+                <div class="panel-footer">
+                    <h4>Subtotal (2 productos):</h4>
+                    <h4 class="textoRojo">$1,997.00</h4>
+                    <p>Pueden aplicarse <a class="puntero">Tarifas de importación</a> al finalizar la compra.</p>
+                    <div class="checkbox">
+                        <label>
+                    <input type="checkbox"> Este pedido es un regalo
+                </label>
+                    </div>
+                    <button class="col-md-12 btn botonProcederPago">Proceder al pago</button>
+                </div>
+                <div class="col-md-11">
+                    <span class="linea col-md-3"></span>
+                    <p class="col-md-1 col-md-offset-1 text-center">o</p>
+                    <span class="linea col-md-3 "></span>
+                </div>
+                <div class="row">
+                    <p class="col-md-11 col-md-offset-1"><a href="#">Identifícate</a> para activar el pedido en 1-Clic.</p>
+                </div>
+                <div class="ultimoPanel col-md-12">
+                    <p class="text-muted">
+                    <span  class="glyphicon glyphicon-chevron-down" area-hidden"text">Calcula tus impuestos y gastos de envío
+                    </span></p>
+                </div>
+
+            </div>
         </div>
-        <div class="panel panel-default panelCompraTotal  col-md-2">
-          <div class="panel-body letraPanel">
-            <span class="glyphicon glyphicon-ok text-success" aria-hidden="true">
-            Tu pedido es elegible con envío GRATIS</span>
-            <p>Comprueba los productos incluidos en la oferta</p>
-            <p>Selecciona esta opción al tramitar el pedido.</p>
-          </div>
-          <div class="panel-footer">Panel footer</div>
-        </div>
-      </div>
 
     </section>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
