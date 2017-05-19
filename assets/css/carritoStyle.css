@@ -19,11 +19,11 @@ h4{
 
 }
 .panelCompraTotal{
-  padding: 0;
+  ppadding: 0;
   margin: 0px;
-    position: relative;
-    left: 950px;
-    bottom: 290px;
+  /*position: relative;*/
+  left: 25px;
+  bottom: 340px;
 }
 .letraPanel{
   font-size: 12px;
