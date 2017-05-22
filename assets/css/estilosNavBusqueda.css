@@ -1,0 +1,20 @@
+.nobullet{
+    list-style: none;
+}
+
+.primeLogo{
+    width: 50px;
+}
+
+.stars{
+    width: 80px;
+    display: inline-block;
+}
+
+.inputTexto{
+    width: 40px;
+}
+
+.colorNegro{
+    color: black;
+}
