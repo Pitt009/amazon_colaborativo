@@ -1,0 +1,42 @@
+footer {
+  background-color: #232F3E;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+footer span {
+  margin: 0 1%;
+}
+
+hr{
+	background-color: #505151;
+  border-style: none;
+	height: 1px;
+}
+
+#inicio {
+  background-color: #37475A;
+  padding: 1%;
+}
+
+#inicio:hover {
+  background: #485769;
+}
+
+#derechos {
+  background-color: #131A22;
+  padding: 1%;
+}
+
+.subtitulos{
+  font-weight: bold;
+}
