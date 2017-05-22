@@ -1,0 +1,54 @@
+.container-item-busqueda {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  font-size: 11px;
+}
+
+.column-item-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 30px 17px;
+}
+
+.text-link {
+  color: #3333dd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-nolink-desc {
+  color: #777;
+  font-size: 11px;
+}
+
+.text-nacional {
+  color: #33d;
+  font-weight: 400;
+}
+
+.text-red {
+  color: #d33;
+  font-weight: 900;
+}
+
+.text-lined {
+  color: #777;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.text-yellow {
+  color: #f4b924;
+}
+
+.text-prime {
+  color: #5dabd8;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.text-green {
+  color: #159959;
+  font-weight: 900;
+}

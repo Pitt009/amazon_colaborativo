@@ -13,3 +13,84 @@
 .publicidad-baja{
   margin-top: 2%;
 }
+
+/*lateral*/
+.lateral-arriba{
+  border: 1px solid #eee;
+  border-radius: 2%;
+  padding: 4%;
+  margin-bottom: 10%;
+  font-size: .75em;
+}
+
+.subtitulo-producto {
+  font-size: 16px;
+  font-family: "Verdana";
+  color: #CC6600;
+  font-weight: bold;
+}
+
+.negrita {
+  color: black;
+  font-size: 17px;
+}
+
+.comentario-subtitulo {
+  padding: 0;
+  margin: 0;
+  color: #949494;
+  font-size: 13px;
+}
+
+.informacion-producto {
+  margin: 2%;
+  font-size: 13px;
+}
+
+.mayusculas-borde {
+  border-top: .5px solid black;
+  border-bottom: .5px solid black;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.bold-naranja {
+  color: #CC6600;
+  font-weight: bold;
+}
+
+.comentario-cliente {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 13px;
+}
+
+.comentario-cliente-img {
+  margin-bottom: 2%;
+}
+
+.comentario-boton {
+  color: black;
+  font-weight: bold;
+  margin-right: 1%;
+}
+
+.margen-superior {
+  margin-top: 5%;
+}
+
+.bordes-tabla {
+  border: .5px solid #999999;
+  border-top: .5px solid #999999;
+}
+
+.bordes-tabla a {
+  text-decoration: underline;
+}
+.bordes-tabla a:hover {
+  color: #CC6600;
+}
+
+.espacio-celdas {
+  width: 25%;
+}
