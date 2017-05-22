@@ -75,3 +75,8 @@ figcaption{
 #carrito{
 	width: 65px;
 }
+.num{
+	font-size:35px;
+	color:#CCC;
+	font-weight: 600;
+}
