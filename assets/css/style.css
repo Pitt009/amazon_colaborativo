@@ -74,3 +74,23 @@
   font-weight: bold;
   margin-right: 1%;
 }
+
+.margen-superior {
+  margin-top: 5%;
+}
+
+.bordes-tabla {
+  border: .5px solid #999999;
+  border-top: .5px solid #999999;
+}
+
+.bordes-tabla a {
+  text-decoration: underline;
+}
+.bordes-tabla a:hover {
+  color: #CC6600;
+}
+
+.espacio-celdas {
+  width: 25%;
+}
