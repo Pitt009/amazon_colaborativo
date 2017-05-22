@@ -2,16 +2,17 @@
 	background-color: #24303f;
 }
 nav{
-	height: 100px;
+	height: 115px;
 }
 .nav-logo{
 	top: -10px;
+	margin-right:1%;
 }
 .letra-nav{
    font-size: 5px;
 }
 .navbar-center{
-	width: 70%;
+	width: 63%;
 	margin-top: 10px;
 }
 .fix{
@@ -61,4 +62,21 @@ figcaption{
 .compu{
 	width: 100%;
 	height: 100px;
+}
+.white-text{
+	color: white;
+}
+.arr{
+	margin-top:-4%
+}
+.btn1{
+	margin-left: -2.5%;
+}
+#carrito{
+	width: 65px;
+}
+.num{
+	font-size:35px;
+	color:#CCC;
+	font-weight: 600;
 }
